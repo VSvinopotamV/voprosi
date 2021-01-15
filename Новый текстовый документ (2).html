@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.div{height: 850px; width: 1000px; background-color: red; margin-left: auto; margin-right: auto;}
+		.div2{height: 850px; width: 1000px; background-color: red; margin-left: auto; margin-right: auto; display: none}
+		.div3{height: 850px; width: 1000px; background-color: red; margin-left: auto; margin-right: auto; display: none}
+		.vop{height: 75px; width: 1000px; background-color: yellow}
+		.car{height: 700px; width: 1000px; background-color: blue;  }
+		.otv{height: 25px; width: 100%; background-color: orange}
+		.otv2{height: 25px; width: 100%; background-color: pink}
+		.otv3{height: 25px; width: 100%; background-color: cyan}
+		.otv4{height: 25px; width: 100%; background-color: orange}
+		.otv5{height: 25px; width: 100%; background-color: pink}
+		.otv6{height: 25px; width: 100%; background-color: cyan}
+		.otv7{height: 25px; width: 100%; background-color: orange}
+		.otv8{height: 25px; width: 100%; background-color: pink}
+		.otv9{height: 25px; width: 100%; background-color: cyan}
+		.car1{height:100%; width: 100%}
+
+	</style>
+</head>
+<body>
+	<div class="div">
+		<div class="vop">
+			<h1>ЧТО ЭТО</h1>
+		</div>
+		<div class="car">
+			<img class="car1" src="31076_image.jpg">
+		</div>
+		<div class="otv">
+				ЛОЖКА
+		</div>
+		<div class="otv2">
+			СОК
+		</div>
+		<div class="otv3">
+			ВИЛКА
+		</div>
+	</div>
+	<div class="div2">
+		<div class="vop">
+			<h1>ЧТО С ЭТИМ ДЕЛАТЬ</h1>
+		</div>
+		<div class="car">
+			<img class="car1" src="593add734e5af.jpg">
+		</div>
+		<div class="otv4">ПИТЬ</div>
+		<div class="otv5">МЫТЬСЯ</div>
+		<div class="otv6">КИДАТЬ</div>
+	</div>
+	<div class="div3">
+		<div class="vop">
+			<h1>КТО ЭТО</h1>
+		</div>
+		<div class="car">
+			<img class="car1" src="krasivye-kartinki-kotov-37.jpg">
+		</div>
+		<div class="otv7">КОТ</div>
+		<div class="otv8">МЫШЬ</div>
+		<div class="otv9">ДИНОЗАВР</div>
+	</div>
+	<script type="text/javascript">
+		document.querySelector('.otv').onclick = function(){
+			alert('нет')
+			
+		}
+		document.querySelector('.otv2').onclick = function(){
+			alert('нет')
+			
+		}
+		document.querySelector('.otv3').onclick = function(){
+			alert('да')
+			document.querySelector('.div2').style.display='block'
+			document.querySelector('.div').style.display='none'
+		}
+		document.querySelector('.otv4').onclick = function(){
+			alert('да')
+			document.querySelector('.div3').style.display='block'
+			document.querySelector('.div2').style.display='none'
+		}
+		document.querySelector('.otv5').onclick = function(){
+			alert('нет')
+			
+		}
+		document.querySelector('.otv6').onclick = function(){
+			alert('нет')
+			
+		}
+		document.querySelector('.otv7').onclick = function(){
+			alert('да')
+			document.querySelector('.div').style.display='block'
+			document.querySelector('.div3').style.display='none'
+		}
+		document.querySelector('.otv8').onclick = function(){
+			alert('нет')
+			
+		}
+		document.querySelector('.otv9').onclick = function(){
+			alert('нет')
+			
+		}
+		
+
+	</script>
+</body>
+</html>
